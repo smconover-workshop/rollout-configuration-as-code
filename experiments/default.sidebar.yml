@@ -1,7 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: sidebar
-enabled: false
+enabled: true
 flag: default.sidebar
 conditions:
   - group:
