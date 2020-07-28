@@ -3,10 +3,7 @@ type: experiment
 name: title
 flag: default.title
 conditions:
-  - property:
-      name: rox.screen_width
-      operator: lte
-      operand: 637
-    value: true
-  - value: false
+  - value:
+      - percentage: 50
+        option: true
 value: false
