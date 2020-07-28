@@ -1,0 +1,7 @@
+type: target-group
+name: BetaUsers
+conditions:
+  - operator: is-true
+    property: hasBetaAccess
+  - operator: is-true
+    property: isLoggedIn
